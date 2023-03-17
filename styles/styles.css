@@ -1,0 +1,47 @@
+
+.page-info{
+    display: flex;
+    
+    flex-direction: row;
+    gap: 2px;
+    width: 20%;
+    align-items: center;
+}
+
+.navigation-bar{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 2px;
+    background-color: rgb(107, 58, 186);
+    width: 20%;
+    font-weight: bold;
+    
+}
+
+.navigation-bar div {
+    background-color: rgb(224, 227, 243);
+    margin: 2px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.email-info {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(200, 175, 175);
+    text-align: center;
+    color: white
+ }
